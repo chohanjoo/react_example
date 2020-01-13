@@ -46,6 +46,7 @@ class App extends Component{
     const selected = todos[index];
 
     const nextTodos = [...todos];
+    console.log("nextTodos : ",nextTodos);
 
     nextTodos[index] = {
       ...selected,
